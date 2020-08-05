@@ -1,0 +1,74 @@
+body{
+	background-image: url(https://www.look.com.ua/mini/201212/62848.jpg);
+	background-size: cover;
+	
+}
+
+.container{
+	margin-top: 130px;
+	background-color: #6E459F;
+	opacity: 0.8;
+	padding-top: 50px;
+}
+
+h1{
+	color: #EBCCDA;
+	font-weight: bold;
+}
+
+span{
+	color: #EBCCDA;
+}
+
+.messages-wrapper {
+  border: 2px solid #737373;
+  border-radius: 2px;
+  padding: 20px;
+
+  height: 65vh;
+  overflow: auto;
+}
+
+.message {
+  padding: 10px;
+  border-bottom: 2px solid #737373;
+}
+
+.message .message-nickname {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.message .message-text {
+  color: #E9E9E9 ;
+  font-size: 1rem;
+}
+
+.send-messages-wrapper {
+  height: 100px;
+  padding: 10px;
+  border: 2px solid #737373;
+  border-radius: 5px;
+
+  margin-top: 20px;
+}
+
+.send-messages-input {
+  width: 100%;
+  border: 2px solid #737373;
+  border-radius: 5px;
+  height: 40px;
+  resize: none;
+  margin: 0;
+}
+
+.send-messages-btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 18px;
+}
+
+.send-messages-button {
+  height: 40px;
+}
